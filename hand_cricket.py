@@ -93,19 +93,8 @@ def bowling():
            print('FINAL RESULT \n I WON BRO !','\n YOUR SCORE',score2,'\n MY SCORE',score)
          else :
            print('FINAL RESULT  \n YOU WON BRO !','\n YOUR SCORE',score2,'\n MY SCORE',score)
-
-
-
-
-
-
-
-
      except ValueError :
         print('only numbers are allowed bro and it also allowed only within six')
-
-
-
 
 try :
    choice=int(input('enter your choice \n 1. 0 -> head \n 2. 1 -> tail')) 
