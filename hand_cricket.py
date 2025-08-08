@@ -37,6 +37,9 @@ def batting ():
                     break  
              else:
                     score2=score2+i
+             if score2>score :
+                  print('I won the match bro')
+                  break
       else:
             print('Result- I completed batting and My sore is',score2)
        
@@ -86,6 +89,9 @@ def bowling():
                        break  
                 else:
                        score2=score2+user2
+                if score2>score:
+                     print('you won bro')
+                     break
          else:
            print('Result- you completed batting and your sore is',score2)
 
